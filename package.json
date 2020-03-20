@@ -1,0 +1,21 @@
+{
+  "name": "kingdomsimulator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run":"tsc people.ts main.ts && browserify main.js -o bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-loader": "^6.2.1",
+    "tsify": "^4.0.1",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.11"
+  }
+}
