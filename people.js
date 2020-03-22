@@ -5,7 +5,7 @@ var People = /** @class */ (function () {
         this.rank = rank;
     }
     People.prototype.product = function () {
-        return this.rank * 3;
+        return this.rank * 2;
     };
     return People;
 }());

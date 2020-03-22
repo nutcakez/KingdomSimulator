@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "run":"tsc people.ts main.ts && browserify main.js -o bundle.js"
+    "run": "tsc people.ts main.ts && browserify main.js -o bundle.js"
   },
   "author": "",
   "license": "ISC",

@@ -1,11 +1,11 @@
 export class People{
     rank:number;
-    constructor(rank){
+    constructor(rank:number){
         this.rank=rank;
     }
 
     product():number{
-        return this.rank*3;
+        return this.rank*2;
     }
 
 }
