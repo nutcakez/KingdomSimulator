@@ -1,3 +1,4 @@
+import gamestatus=require("./GameStatus")
 export class People{
     strength:number;
     inteligence:number;
@@ -41,8 +42,4 @@ export class People{
     changeTask(task:string):void{
         this.currentTask=task;
     }
-
-    
-
-
 }

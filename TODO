@@ -1,6 +1,66 @@
+Tasks:
+☐ make a 'fancy' grid - fill it with some icon (frontend) - ON DAVID
+☐ make a top bar for resources (Wood,food....) - ON DAVID
+☐ make a bottom part for the actions - ON DAVID
+☐ have some kind of population counter on frontend - ON DAVID
+☐ transform people into soldiers
+    ☐ fee for soldiers
+    ☐ soldiers arent making baby
+
+☐ have city
+    ☐ 
+☐ have a castle
+    ☐ soldiers will be here
+    ☐ limit for soldiers
+☐ place it randomly on the mapppp
+☐ castle must be nearby the city
+
+Ideas:
+
 ☐ make gold element in code, instead of the hardcoded element
 ☐ make soldier
     ☐ soldier nono production
-☐ smart guy to mine->sucks
-☐ genetic thing, genetic traits 
-    ☐ combine 1 male + 1 female avg stats and +/- a given random radius?
+✔ smart guy to mine->sucks @done(20-03-24 11:32)
+✔ genetic thing, genetic traits @done(20-03-24 11:29)
+    ✔ combine 1 male + 1 female avg stats and +/- a given random radius? @done(20-03-24 11:29)
+
+☐ happines meter -> more likely to make kids
+    ☐ you have a job, commodities (potery, iron cast) / own things  ++++++
+
+☐ neutral cities around you might be attracted to you if you are nice
+    ☐ attractivines = happines of ppl?
+
+☐ conquired city is going to be mad
+    ☐ effect on our city
+
+☐ Make random map
+
+☐ fee for soldiers
+
+☐ school - int
+☐ gym   - str
+☐ training - dex
+
+☐ population limit? based on food/house
+☐ setup farm, up to 50
+☐ manage ppl, work on something based on need - weapon for example
+
+
+we have farm
+    workers:
+        bob   10str 5 dex   1int
+        bob2  2     3 dex   8 int
+
+☐ profession based on stats:
+        ☐ teacher int based
+        ☐ scientist int based
+
+☐ tavern
+        ☐ ppl will come here (random)
+        ☐ really cool soldiers/general ppl there
+        ☐ hire them to sciense lab
+
+☐ city to top to 200 hundred
+☐ trade routes
+☐ barbarians, wild ppl
+☐ resource - run out ->

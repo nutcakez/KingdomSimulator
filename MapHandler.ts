@@ -1,3 +1,6 @@
+import "./BuildHandle"
+import { BuildHandle } from "./BuildHandle";
+
 class MapHandler{
     maptiles:Array<Array<number>>=[];
 
@@ -27,25 +30,29 @@ class MapHandler{
                     case "1":
                         cell.style.cssText="background-color:blue";
                         cell.onclick = function () {
-                            alert("this is water")
+                            alert(BuildHandle.TerrainHandler("water"))
+                            BuildHandle.DrawBuildOptions(BuildHandle.TerrainHandler("water"))
                         };
                         break;
                     case "2":
                         cell.style.cssText="background-color:brown";
                         cell.onclick = function () {
-                            alert("this is ground")
+                            alert(BuildHandle.TerrainHandler("clay"))
+                            BuildHandle.DrawBuildOptions(BuildHandle.TerrainHandler("clay"))
                         };
                         break;
                     case "3":
                         cell.style.cssText="background-color:gray";
                         cell.onclick = function () {
-                            alert("this is stone")
+                            alert(BuildHandle.TerrainHandler("rock"))
+                            BuildHandle.DrawBuildOptions(BuildHandle.TerrainHandler("rock"))
                         };
                         break;
                     case "4":
                         cell.style.cssText="background-color:yellow";
                         cell.onclick = function () {
-                            alert("this is sand")
+                            alert(BuildHandle.TerrainHandler("desert"))
+                            BuildHandle.DrawBuildOptions(BuildHandle.TerrainHandler("desert"))
                         };
                         break;
                     default:
