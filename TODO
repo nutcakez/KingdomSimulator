@@ -1,3 +1,6 @@
+Technical Dependency:
+    ☐ tsconfig.json ->strictcheck is false now, should be true
+
 Tasks:
 ☐ make a 'fancy' grid - fill it with some icon (frontend) - ON DAVID
 ☐ make a top bar for resources (Wood,food....) - ON DAVID
