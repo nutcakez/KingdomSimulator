@@ -1,5 +1,6 @@
 import map =require("./MapHandler");
 import gamestatus=require("./GameStatus")
+import buildingList=require("./BuildingsList")
 
 export class BuildHandle{
     static BuildHandle(){
